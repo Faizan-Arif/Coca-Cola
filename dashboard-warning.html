@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard - Warning</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/card.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .active-button {
+            background-color: #300f101a;
+            color: white;
+            border-left: 2px solid white;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="navbar flex-md-nowrap">
+        <div class="heading">
+            <h3 class="h3">Warning</h3>
+        </div>
+        <!-- <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="#">Profile</a>
+            </div>
+        </div> -->
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse design">
+                <div class="position-sticky pt-3">
+                    <a href="#"><img src="images/coca-cola.png" alt="coca-cola"></a>
+                    <ul class="nav flex-column aside-bar">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="dashboard-overview.html">
+                                <i class="fa-solid fa-chart-pie"></i><span data-feather="home">&nbsp;&nbsp;&nbsp;</span> Overview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active-button" href="dashboard-warning.html" style="color: white;">
+                                <i class="fa-solid fa-radiation"></i></i><span data-feather="file">&nbsp;&nbsp;&nbsp;</span> Warning
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard-alarm.html">
+                                <i class="fa-solid fa-lightbulb"></i><span data-feather="shopping-cart">&nbsp;&nbsp;&nbsp;</span> Alarm
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard-departments.html">
+                                <i class="fa-solid fa-users"></i><span data-feather="users">&nbsp;&nbsp;&nbsp;</span> Departments
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard-all-ac.html">
+                                <i class="fa-solid fa-layer-group"></i><span data-feather="bar-chart-2">&nbsp;&nbsp;&nbsp;</span> All AC
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard-critical.html">
+                                <i class="fa-solid fa-book"></i><span data-feather="layers">&nbsp;&nbsp;&nbsp;</span> Critical
+                            </a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard-settings.html">
+                                <i class="fa-solid fa-gear"></i><span data-feather="layers">&nbsp;&nbsp;&nbsp;</span> Settings
+                            </a>
+                        </li>
+                    </ul>
+
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="row main-content">
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Total AC</h6>
+                                <h2 class="card-text card-heading">100</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Running AC</h6>
+                                <h2 class="card-text card-heading">60</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Off AC</h6>
+                                <h2 class="card-text card-heading">40</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Global Set To</h6>
+                                <h2 class="card-text card-heading">25 C</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row parent-card">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <table class="table custom-table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th style="padding: 4%;">
+                                            <h6 class="table-heading">Warning</h6>
+                                        </th>
+                                        <th class="table-details" style="padding: 5%;"><a href="#">View
+                                                details</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td>
+                                            <p>Meeting Room AC No:4 </p>
+                                        </td>
+                                        <td>
+                                            <p class="table-details"><span class="time">8 </span>hours</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td>
+                                            <p>Meeting Room AC No:4 </p>
+                                        </td>
+                                        <td>
+                                            <p class="table-details"><span class="time">8 </span>hours</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td>
+                                            <p>Meeting Room AC No:4 </p>
+                                        </td>
+                                        <td>
+                                            <p class="table-details"><span class="time">8 </span>hours</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td>
+                                            <p>Meeting Room AC No:4 </p>
+                                        </td>
+                                        <td>
+                                            <p class="table-details"><span class="time">8 </span>hours</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <table class="table custom-table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th style="padding: 4%;">
+                                            <h6 class="table-heading">Warning</h6>
+                                        </th>
+                                        <th class="table-details" style="padding: 5%;"><a href="#">View
+                                                details</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td>
+                                            <p>Meeting Room AC No:4 </p>
+                                        </td>
+                                        <td>
+                                            <p class="table-details"><span class="time">8 </span>hours</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td>
+                                            <p>Meeting Room AC No:4 </p>
+                                        </td>
+                                        <td>
+                                            <p class="table-details"><span class="time">8 </span>hours</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td>
+                                            <p>Meeting Room AC No:4 </p>
+                                        </td>
+                                        <td>
+                                            <p class="table-details"><span class="time">8 </span>hours</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td>
+                                            <p>Meeting Room AC No:4 </p>
+                                        </td>
+                                        <td>
+                                            <p class="table-details"><span class="time">8 </span>hours</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
