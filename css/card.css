@@ -1,0 +1,73 @@
+.parent-card {
+    margin-left: 0%;
+    margin-top: 7%;
+    /* margin: 3% 0% 0% 3%; */
+}
+
+.custom-table {
+    margin-bottom: 0%;
+}
+
+.table-heading {
+    color: #E5302C;
+    font-weight: bold;
+}
+
+th a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.table-details {
+    text-align: right;
+}
+
+.table-row {
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.time {
+    color: #E5302C;
+}
+
+.time-1 {
+    color: #E5302C;
+    padding-bottom: 5%;
+}
+
+table tbody tr td p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+table tbody tr td p {
+    color: #36373E;
+    font-weight: bold;
+    padding: 2%;
+    padding-right: 12%;
+}
+
+th {
+    padding: 5%;
+}
+
+.table2-details {
+    text-align: center;
+}
+
+table thead tr th .table2-details {
+    padding-bottom: 4%;
+}
+
+.t2 {
+    padding: 3%;
+    /* color: #b6b7bd; */
+}
+
+td {
+    padding: 5%;
+}
+
+.col-sm-6 {
+    margin-bottom: 3%;
+}

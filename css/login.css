@@ -1,0 +1,66 @@
+body {
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 2%;
+    width: 25%;
+    border: 2px solid white;
+    border-radius: 2%;
+    background: white;
+    box-shadow: 1px 1px 3px black;
+    text-align: center;
+    height: 500px;
+}
+
+.logo {
+    margin-top: 10%;
+    width: 75px;
+    height: 75px;
+}
+
+h4 {
+    margin-top: 5%;
+}
+
+.title {
+    margin-bottom: 10%;
+    color: #b6b7bd;
+}
+
+.label {
+    text-align: left;
+    color: #C4C5CB;
+}
+
+.form-label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#forgot-pass {
+    text-decoration: none;
+    font-size: 75%;
+    margin-left: 43%;
+}
+
+#forgot-pass:hover {
+    color: #b6b7bd;
+}
+
+input[type="text"] {
+    background-color: #fbfcff;
+    font-size: 15px;
+}
+
+input[type="password"] {
+    background-color: #fbfcff;
+    font-size: 15px;
+}
+
+.button {
+    width: 99%;
+    background-color: #E5302C;
+    margin-top: 5%;
+}

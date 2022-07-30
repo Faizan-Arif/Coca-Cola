@@ -1,0 +1,56 @@
+.card-title {
+    text-align: left;
+}
+
+.text-decoration {
+    font-size: 75%;
+    float: right;
+    /* text-decoration: none; */
+    /* color: aliceblue; */
+}
+
+.text-decoration a {
+    /* font-size: 80%; */
+    /* float: right; */
+    padding: auto 2%;
+    text-decoration: none;
+    color: #b6b7bd;
+}
+
+.table thead tr th {
+    color: #b6b7bd;
+    border-bottom: 1px solid #b6b7bd;
+    font-weight: 600;
+    font-size: 90%;
+    text-align: left;
+}
+
+.table tbody tr td {
+    border-bottom: 1px solid #b6b7bd;
+}
+
+.table thead tr .first-entity,
+.table tbody tr .first-entity {
+    width: 50%;
+}
+
+.table tbody tr td p {
+    color: #b6b7bd;
+    display: inline-block;
+    font-weight: 500;
+    text-align: left;
+}
+
+.table tbody tr td img {
+    width: 10%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.ac-image {}
+
+.no-padding {
+    padding: 0%;
+}
+
+.sub-table
